@@ -1,7 +1,24 @@
-#ifndef KERNEL_H
-#define KERNEL_H
-#include <stdio.h>
+#ifndef KERNEL_H_
+#define KERNEL_H_
+
+#include <stdlib.h>
+
+#include "colas.h"
+#include "conexion_consola.h"
+#include "conexion_memoria.h"
+#include "conexion_cpu.h"
 #include <commons/log.h>
-#include <stdbool.h>
-#include "shared_utils.h"
-#endif
+#include "leer_config.h"
+
+t_log *logger;
+t_config *config;
+
+typedef struct{
+    t_pcb* pcb;
+    int milisegundos;
+    int contador;
+} t_pcb_recibido;
+
+t_log *log_kernel;
+
+#endif 
