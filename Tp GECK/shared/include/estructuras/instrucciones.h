@@ -7,7 +7,7 @@
 #include "../sockets.h"
 
 typedef enum {
-	SET, IO, ADD, MOVE_IN, MOVE_OUT, EXIT, NO_RECONOCIDO
+	SET, IO, ADD, MOVE_IN, MOVE_OUT, EXIT, NO_RECONOCIDO, NO_OP
 } id;
 
 typedef enum{

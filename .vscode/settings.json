@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "conexion_memoria.h": "c",
+        "stdlib.h": "c",
+        "colas.h": "c",
+        "socket.h": "c",
+        "string.h": "c",
+        "stdio.h": "c"
+    }
+}
